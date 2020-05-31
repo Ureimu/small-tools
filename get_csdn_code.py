@@ -1,5 +1,8 @@
 import re
 
+"""
+将csdn的代码块的源代码输入,可以得到代码块的内容.
+"""
 regex = r"([0-9])|(>(.*?)<)"
 text=""
 test_str=input()
